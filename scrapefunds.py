@@ -44,5 +44,4 @@ def get_fund_info(section_url):
 	dbconfig.database.set_autocommit(True)
 
 url = "file:///home/mats/Downloads/onefund.xls"
-myvar = get_fund_info(url)
-print myvar
+get_fund_info(url)
